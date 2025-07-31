@@ -9,16 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mikro-orm/core": "^6.4.16",
+    "@mikro-orm/postgresql": "^6.4.16",
+    "@tanstack/react-query": "^5.83.1",
+    "axios": "^1.11.0",
+    "mikro-orm": "^6.4.16",
+    "next": "15.4.5",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.4.5"
+    "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
+    "@tanstack/react-query-devtools": "^5.83.1",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
